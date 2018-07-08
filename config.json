@@ -1,5 +1,5 @@
 {
-  "port": 1700,
+  "port": 8196,
   "address": "0.0.0.0",
   "publicIp": "",
   "logLevel": "debug",
@@ -11,7 +11,7 @@
   },
   "peers": {
     "list": [
-          {"ip": "172.31.90.18", "port": 1700}
+          {"ip": "172.31.90.18", "port": 8196}
     ],
     "blackList": [],
     "options": {
