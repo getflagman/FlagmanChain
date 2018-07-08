@@ -393,14 +393,14 @@ svg:nth-of-type(10) ellipse {
 }
 
 .card-btwbg {
-    background-color: #6e4e92;
-    border-color: #6e4e92;
+    background-color: #00cafc;
+    border-color: #00cafc;
 }
 
 .btn-btwbg {
     color: #fff;
-    background-color: #6e4e92;
-    border-color: #6e4e92;
+    background-color: #00cafc;
+    border-color: #00cafc;
 }
 
 .btn-btwbg:hover {
@@ -774,7 +774,7 @@ and also iPads specifically.
 }
 
 .mtop-newsecret .secret-bind {
-    background-color: #6e4e92;
+    background-color: #00cafc;
     color: white;
     padding: 5px;
     text-align: center;
