@@ -4,7 +4,7 @@
         <div class="card-block to-tabs">
             <ul id="tabs" class="nav nav-tabs">
                 <li class="nav-item active" data-href="#wallets">
-                    <a class="nav-link" style="overflow: hidden;"><i class="tabimg pull-left os-icon os-icon-wallet-loaded" style="margin-right: 15px;"></i><span class="pull-left ecllip">BitWhite wallet</span></a>
+                    <a class="nav-link" style="overflow: hidden;"><i class="tabimg pull-left os-icon os-icon-wallet-loaded" style="margin-right: 15px;"></i><span class="pull-left ecllip">Flagman wallet</span></a>
                 </li>
                 <li class="nav-item" data-href="#portfolio">
                     <a class="nav-link" style="overflow: hidden;"><i class="tabimg pull-left os-icon os-icon-delivery-box-2" style="margin-right: 15px;"></i><span class="pull-left ecllip">Portfolio</span></a>
@@ -26,13 +26,13 @@
                 <div class="item mbottom">
                     <div class="card coin-box card-border">
                         <div class="card-bg-top card-btw">
-                            <span class="amount-count">{{ userService.balance | xasFilter }} BTW</span>
+                            <span class="amount-count">{{ userService.balance | xasFilter }} FLG</span>
                         </div>
                         <div class="card-block text-center">
                             <div class="icon" ng-click="showpersonalinfo()">
                                 <img class="pulse" style="width: 80px;margin: auto;background: #008bcb;" src="./assets/images/logo.png"/>
                             </div>
-                            <span class="color-btw">BitWhite</span>
+                            <span class="color-btw">Flagman</span>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><span ng-show="latestBlock.height">Sync:&nbsp;<b id="sync-block">{{latestBlock.height }}</b> - Blocks</span><i ng-show="!latestBlock.height">Loading...</i></li>
