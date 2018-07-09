@@ -35,7 +35,7 @@
                             <span class="color-btw">Flagman</span>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><span ng-show="latestBlock.height">Sync:&nbsp;<b id="sync-block">{{latestBlock.height }}</b> - Blocks</span><i ng-show="!latestBlock.height">Loading...</i></li>
+                            <li class="list-group-item"><span ng-show="latestBlock.height">Data:&nbsp;<b id="sync-block">{{latestBlock.height }}</b> - Blocks</span><i ng-show="!latestBlock.height">Loading...</i></li>
                         </ul>
                         <div class="card-block">
                             <button type="button" ng-click="showsendtransfer()" class="btn btn-info btn-block">Transfer</button>
@@ -54,7 +54,7 @@
                             <span class="color-btc">Bitcoin (disabled)</span>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Sync:&nbsp;<i>None</i></li>
+                            <li class="list-group-item">Data:&nbsp;<i>None</i></li>
                         </ul>
                         <div class="card-block">
                             <div class="btn-group" data-toggle="buttons" style="width: 100%;">
@@ -80,7 +80,7 @@
                             <span class="color-eth">Ethereum (disabled)</span>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Sync:&nbsp;<i>None</i></li>
+                            <li class="list-group-item">Data:&nbsp;<i>None</i></li>
                         </ul>
                         <div class="card-block">
                             <div class="btn-group" data-toggle="buttons" style="width: 100%;">
@@ -106,7 +106,7 @@
                             <span class="color-dash">Dash (disabled)</span>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Sync:&nbsp;<i>None</i></li>
+                            <li class="list-group-item">Data:&nbsp;<i>None</i></li>
                         </ul>
                         <div class="card-block">
                             <div class="btn-group" data-toggle="buttons" style="width: 100%;">
@@ -132,7 +132,7 @@
                             <span class="color-ltc">Litecoin (disabled)</span>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Sync:&nbsp;<i>None</i></li>
+                            <li class="list-group-item">Data:&nbsp;<i>None</i></li>
                         </ul>
                         <div class="card-block">
                             <div class="btn-group" data-toggle="buttons" style="width: 100%;">
@@ -144,18 +144,6 @@
                                 </label>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div ng-show="table" class="card card-border ng-hide mbottom isMobile" style="overflow: hidden;">
-                <div class="card-block">
-                    <style>canvas {
-                        -moz-user-select: none;
-                        -webkit-user-select: none;
-                        -ms-user-select: none;
-                    }</style>
-                    <div>
-                        <canvas id="canvas" style="width: 100%;"></canvas>
                     </div>
                 </div>
             </div>

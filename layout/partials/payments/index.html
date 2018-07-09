@@ -51,7 +51,7 @@
 							<input type="number" class="form-control" placeholder="Amount" ng-model="amount">
 						</div>
 
-						<button type="submit" class="btn btn-primary mb-2" ng-click="addRange()">Add to list</button>
+						<button type="submit" class="btn btn-info" ng-click="addRange()">Add to list</button>
 					</form>
 					<div ng-show="table" class="ng-hide" style="margin-top: 10px">
                         <h5>Send</h5>
@@ -97,7 +97,7 @@
                     <div class="form-group">
 
                     	<button class="btn btn-success" ng-click="send()">Send</button>
-                    	<button class="btn btn-primary" ng-click="clearRanges()">Clear</button>
+                    	<button class="btn btn-info" ng-click="clearRanges()">Clear</button>
                     	<button class="btn btn-danger" style="{{ ranges.length == 0 ?'display:none;':'' }}" ng-click="clearLast()">Remove last</button>
                     </div>
 

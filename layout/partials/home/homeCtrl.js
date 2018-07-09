@@ -7,7 +7,7 @@ angular.module('btw').controller('homeCtrl', function ($scope, $rootScope, $filt
     $scope.searchStr = "";
     $scope.search = function() {
         console.log($scope.searchStr);
-        let url = 'https://bitwhite.info';
+        let url = 'https://explorer.flagman.io';
         if($scope.searchStr.length > 60) {
             $window.open(url + '/tx/' + $scope.searchStr);
         } else $window.open(url + '/address/' + $scope.searchStr);
