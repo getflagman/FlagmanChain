@@ -315,7 +315,7 @@ module.exports = function(options, done) {
             });
 
             scope.network.server.listen(scope.config.port, scope.config.address, function (err) {
-                scope.logger.log("BTW started: " + scope.config.address + ":" + scope.config.port);
+                scope.logger.log("FLG started: " + scope.config.address + ":" + scope.config.port);
 
                 if (!err) {
                     if (scope.config.ssl.enabled) {

@@ -147,7 +147,7 @@ let node = {
 
         /** @namespace program.daemon */
         if (program.daemon) {
-            console.log('BTW server started as daemon ...');
+            console.log('FLG server started as daemon ...');
             require('daemon')({cwd: process.cwd()});
         }
 

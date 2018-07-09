@@ -262,8 +262,8 @@ Round.prototype.backwardTick = function (block, previousBlock, cb) {
                 }
                 var bonus = '-' + new RoundChanges(round).getClubBonus()
                 var dappId = global.state.clubInfo.transactionId
-                const BONUS_CURRENCY = 'XAS'
-                library.logger.info('Btw witness club get new bonus: ' + bonus)
+                const BONUS_CURRENCY = 'FLG'
+                library.logger.info('FLG witness club get new bonus: ' + bonus)
                 library.balanceCache.addAssetBalance(dappId, BONUS_CURRENCY, bonus)
                 library.model.updateAssetBalance(BONUS_CURRENCY, bonus, dappId, cb)
             },
