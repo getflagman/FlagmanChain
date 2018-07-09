@@ -1,3 +1,7 @@
+/**
+ * Flagman Fondation
+ */
+
 const assert = require('assert');
 const crypto = require('crypto');
 const program = require('commander');
